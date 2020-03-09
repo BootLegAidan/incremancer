@@ -68,7 +68,7 @@ GameModel = {
   autoconstructionUnlocked : false,
   levelResourcesAdded : false,
   bulletproofChance : 0,
-  gameSpeed : 1,
+  gameSpeed : 10,
   
   level:1,
   
