@@ -162,8 +162,8 @@ Zombies = {
   },
 
   spawnZombie(x,y) {
-    if (this.model.energy < this.model.zombieCost)
-      return;
+//    if (this.model.energy < this.model.zombieCost)
+//      return;
 
     this.model.energy -= this.model.zombieCost;
     this.createZombie(x, y, false, this.model.persistentData.gigazombiesOn);
