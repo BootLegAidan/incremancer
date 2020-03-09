@@ -1,5 +1,5 @@
 var model = GameModel;
-var cheats = document.getElementByID('cheats');
+var cheats = document.getElementById('cheats');
 
 cheats.getElementsByTagName('button')[0].onclick = function(){
   this.model.addBlood(1000000)
